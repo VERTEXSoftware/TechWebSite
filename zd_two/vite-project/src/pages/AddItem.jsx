@@ -35,7 +35,7 @@ function AddItem({ isOpen, onClose, onAddItem }) {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+      <div className="bg-white p-6 shadow-lg w-full max-w-md">
         <Text size="large" color="primary" weight="bold" className="mb-4">Добавить новый товар</Text>
         <form onSubmit={handleSubmit}>
           <Input size="medium" color="primary" placeholder="Название" value={title} onChange={(e) => setTitle(e.target.value)}className="mb-4"/>
