@@ -3,8 +3,7 @@ import React from "react";
 export const Button = (props) => {
   const { size, color, title, onClick } = props;
 
-  const defaultClass =
-    "flex items-center rounded-2 h-[40px] w-[max-content] px-4 py-2 transition-colors duration-200";
+  const defaultClass = "flex items-center h-[40px] w-[max-content] px-4 py-2 transition-colors duration-200";
 
   const classes = {
     colors: {
@@ -18,9 +17,9 @@ export const Button = (props) => {
       },
     },
     sizes: {
-      small: "rounded-[100px] text-sm",
-      medium: "rounded-[14px] text-base",
-      large: "rounded-[16px] text-base min-h-[56px]",
+      small: "text-sm",
+      medium: "text-base",
+      large: "text-base min-h-[56px]",
     },
   };
 
